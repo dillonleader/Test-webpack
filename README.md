@@ -3,8 +3,9 @@
 3. 最基本的打包方式：webpak .\src\文件 .\dist\打包好的文件
 4. 直接使用 webpack 命令进行打包，则要新建一个 webpack.config.js 配置文件，里面主要存放自己写的配置
 5. 将打包的文件配置和打包好的文件配置写在 webpack.config.js 中，语法如下：
-6. 		const path = require("path")
-7. 		module.exports = {
+6. 		
+ 		const path = require("path")
+ 		module.exports = {
 			entry: path.join(__direname,'./src/xx.js'),
 			output:{
 				path: path.join(__dirname,'./dist'),
